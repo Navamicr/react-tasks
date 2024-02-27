@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+.MuiBackdrop-root.MuiModal-backdrop {
+  background-color: transparent !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Poppins', sans-serif, auto; */
+  font-family: auto
+}
+
+
+.profile-list-item:hover .MuiTypography-root {
+  color: #cc5500 !important;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/1236512.jpg');
+  background-size: "cover";
+  background-repeat: 'no-repeat';
+  background-position: 'center';
+}

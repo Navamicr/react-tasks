@@ -1,0 +1,116 @@
+
+
+.main{
+    background-image: url("components/writeUs/bg-writeUs.png");
+    height: 92vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    /* padding: 0 80px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    padding-left: 15%;
+    
+}
+h1{
+    line-height: 1.45;
+    font-family: "Poppins-Bold",sans-serif;
+    font-weight: 700;
+    font-size: 1.737rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* padding-left: 15%; */
+}
+.writeus-content{
+    /* padding-left: 15%; */
+    line-height: 1.79;
+    font-size: 1rem;
+    color: #6c6c6c;
+    /* padding-left: 15%; */
+    font-size: large;
+}
+.form-group{
+    margin-bottom: 1.579rem;
+    
+}
+.fg-control{
+    border-color: transparent;
+    width: 65%;
+    border-radius: 0;
+    background-color: #f8f8f8;
+    padding: 1.251rem 1.579rem;
+    font-size: 1rem;
+    height: auto;
+    line-height: 1.31;
+    font-weight: 400;
+    color: #6c6c6c;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    resize: none;
+}
+.btn{
+    cursor: pointer;
+    min-width: 11.053rem;
+    color: #060606;
+    border-color: #060606;
+    display: inline-block;
+    font-family: "Poppins-Bold",sans-serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    background-color: transparent;
+    padding: 1.132rem;
+    font-size: medium;
+    
+}
+.site-footer {
+    
+    position: relative;
+    font-size: .895rem;
+    background-color: #060606;
+    color: #fff;
+    display: block;
+    height: 50%;
+    
+    
+}
+#copywrite{
+    font-size: larger;
+    line-height: 1.79;
+    margin: 0;
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 1rem;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    
+}
+.logo img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+  }
+  #ln,
+  #fb {
+    font-size: 24px; 
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;
+  }

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: #efedfb; */
+    /* background-color: #a9a7b3; */
+    font-family: 'Roboto', sans-serif;
+    color: #679186;
+    /* background-color: #807182; */
+    /* background-color: #423f42 */
+    background-color: #679186
+}
+
+#mainBlock>article {
+    background: #fff;
+
+    border: 1px solid #eee;
+    width: 29%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    margin-top: 3rem
+}
+
+#mainBlock>article h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px;
+}
+
+#mainBlock>article main {
+    display: flex;
+    gap: 10px;
+}
+
+#mainBlock>article main>div {
+    /* background: #ffa07a6b; */
+    flex: 1;
+    /* padding: 55px; */
+    /* background: #e9b3ae7d; */
+    background: #fdebd3
+}
+
+#mainBlock form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+#mainBlock form label {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    font-weight: 500;
+    color: #807182;
+    text-transform: capitalize;
+}
+
+#mainBlock form input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    color: black;
+    border: 2px solid #f1dfdf;
+
+    background: #FAF9F6;
+    opacity: 70%;
+    font-weight: 600;
+    /* box-shadow: 0px 5px 20px rgb(0 0 0 / 39%); */
+    box-shadow: 0px 5px 8px #423f42;
+    outline: none
+}
+
+
+#mainBlock form button {
+    /* background: #807182; */
+    /* background-color: #423f42; */
+    background-color: #679186;
+    /* border: 1px solid #bac4c1; */
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    width: auto;
+    font-weight: bold;
+    padding: 13px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#mainBlock .todo h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding: 10px 0;
+    border-bottom: 1px solid #679186;
+    margin: 10px 0;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 0px #ccc;
+}
+
+.todo table {
+    width: 100%;
+    border: 1px solid #bebebe;
+
+}
+
+.todo table thead {
+    background-color: #344D70;
+    color: #fff;
+    padding: 10px;
+}
+
+.todo tr,
+td,
+th {
+    border: 1px solid #607D8B;
+    border-collapse: collapse;
+    width: fit-content;
+    padding: 7px;
+
+}
+
+.delete,
+.update {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.delete {
+    background: #a93636;
+    color: #fff;
+}
+
+.update {
+    background-color: #607D8B;
+    color: #fff;
+}

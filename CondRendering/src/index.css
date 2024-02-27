@@ -1,0 +1,47 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#navbar{
+  background-color: rgb(11,7,7,0.133);
+  height: 70px;
+  width: 100%;
+}
+#navbar .container,#productsBlock .container{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  justify-content: space-between;
+}
+.container ul{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.container ul li a{
+  color: yellow;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+sup{
+  background: green;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display:inline-block;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+[
+    {
+      "course_id": 1,
+      "course_name": "MERN",
+      "trainers": [
+        "Beth",
+        "Carol",
+        "David"
+      ],
+      "price": 5000,
+      "branch": "KCH",
+      "course_details": {
+        "frontend": [
+          "html",
+          "css",
+          "js",
+          "react"
+        ],
+        "backend": [
+          "java",
+          "spring",
+          "mongoose"
+        ]
+      }
+    },
+    {
+      "course_id": 2,
+      "course_name": "JAVA FULL STACK",
+      "trainers": [
+        "Carl",
+        "Daryl",
+        "Bella"
+      ],
+      "price": 2000,
+      "branch": "HYD",
+      "course_details": {
+        "frontend": [
+          "html",
+          "css",
+          "js",
+          "react"
+        ],
+        "backend": [
+          "java",
+          "spring",
+          "mongoose"
+        ]
+      }
+    }
+  ]

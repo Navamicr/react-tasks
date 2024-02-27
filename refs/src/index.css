@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #111;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* #videoBlock{
+  width: 100%;
+  height: 100%;
+}
+#videoBlock article{
+  width: 90%;
+  margin: 0 auto;
+
+}
+#videoBlock video{
+  width: 100%;
+  height: 600px;
+} */
+
+/* ===========ref2 json eg========= */
+
+#videoBlock{
+  width: 100%;
+  height: 100%;
+}
+#videoBlock > article{
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+.left{
+  flex-basis: 75%;
+}
+.right{
+  flex-basis: 25%;
+}
+.right img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.videoItem{
+  margin: 10px 0;
+}
+h2{
+  font-size: 14px;
+  color: #666;
+}
+video{
+  width: 100%;
+  height: 500px;
+}

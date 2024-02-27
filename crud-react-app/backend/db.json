@@ -1,0 +1,18 @@
+{
+  "courses": [
+    {
+      "id": "325a",
+      "title": "Java",
+      "trainer": "Venki",
+      "description": "java is simple",
+      "createdAt": "2024-01-24"
+    },
+    {
+      "id": "67a0",
+      "title": "angular",
+      "trainer": "beth",
+      "description": "Angular is a web development framework that lets you create scalable and secure web apps with confidence. Learn how Angular works at any scale, supports you as your team grows, ",
+      "createdAt": "2024-01-19"
+    }
+  ]
+}
